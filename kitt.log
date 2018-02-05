@@ -1,0 +1,38 @@
+[2017-07-27 19:29:36,973] DEBUG (config.py L86, __init__): Loaded 'config/config.ini'
+[2017-07-27 19:29:37,016] INFO (bot.py L45, __init__): K.I.T.T. (1.0.0  19Apr2017). Connecting...
+[2017-07-27 19:29:58,063] INFO (bot.py L85, _cache_app_info): Caching app info.
+[2017-07-27 19:29:59,903] INFO (bot.py L192, _scheck_configs): Validating config
+[2017-07-27 19:29:59,903] DEBUG (config.py L148, async_validate): Validating options...
+[2017-07-27 19:29:59,904] INFO (config.py L163, async_validate): Aquired owner id via API
+[2017-07-27 19:29:59,904] INFO (bot.py L332, on_ready): 
+[2017-07-27 19:29:59,904] INFO (database.py L47, connect): Connecting to database: gng
+[2017-07-27 19:30:05,596] INFO (database.py L50, connect): <rethinkdb.net_asyncio.Connection object at 0x000002A16AA361D0>
+[2017-07-27 19:30:08,987] DEBUG (database.py L63, connect): Database gng already exists, skipping creation
+[2017-07-27 19:30:10,690] DEBUG (database.py L75, create_table): Table warning1 already exists, skipping creation
+[2017-07-27 19:30:10,690] INFO (bot.py L206, database): Backing up existing warning1 to JSON file...
+[2017-07-27 19:30:12,495] INFO (bot.py L212, database): First warnings have been backed up to data/backup_warning1.json in case of a database outage
+[2017-07-27 19:30:13,930] DEBUG (database.py L75, create_table): Table warning2 already exists, skipping creation
+[2017-07-27 19:30:13,930] INFO (bot.py L217, database): Backing up existing warning2 to JSON file...
+[2017-07-27 19:30:15,317] INFO (bot.py L223, database): Secound warning have been backed up to data/backup_warning2.json in case of a database outage
+[2017-07-27 19:30:16,808] DEBUG (database.py L75, create_table): Table actions already exists, skipping creation
+[2017-07-27 19:30:16,809] INFO (bot.py L228, database): Backing up existing actions to JSON file...
+[2017-07-27 19:30:18,344] INFO (bot.py L235, database): Actions have been backed up to data/backup_actions.json in case of a database outage
+[2017-07-27 19:30:19,922] DEBUG (database.py L75, create_table): Table tags already exists, skipping creation
+[2017-07-27 19:30:19,923] INFO (bot.py L240, database): Backing up existing tags to JSON file...
+[2017-07-27 19:30:21,639] INFO (bot.py L247, database): Tags have been backed up to data/backup_tags.json in case of a database outage
+[2017-07-27 19:30:21,640] INFO (bot.py L334, on_ready): Bot started at 2017 Jul 27 19:30:21
+[2017-07-27 19:30:21,640] INFO (bot.py L335, on_ready): Connected!
+[2017-07-27 19:30:21,640] INFO (bot.py L336, on_ready): Version: 1.0.0  19Apr2017
+[2017-07-27 19:30:21,640] INFO (bot.py L341, on_ready): Bot:   Hobson#9715/187344968803811339 [BOT]
+[2017-07-27 19:30:21,640] INFO (bot.py L348, on_ready): Owner: luminaryfive#2470/78242043209461760
+[2017-07-27 19:30:21,641] INFO (bot.py L350, on_ready): 
+[2017-07-27 19:30:21,641] INFO (bot.py L351, on_ready): Info:
+[2017-07-27 19:30:21,641] INFO (bot.py L355, on_ready): Running on the following servers:
+[2017-07-27 19:30:21,643] INFO (bot.py L358, on_ready): 
+[2017-07-27 19:30:21,644] INFO (bot.py L359, on_ready): Command Prefix: <<
+[2017-07-27 19:30:21,644] INFO (bot.py L360, on_ready): Delete Messages: True
+[2017-07-27 19:30:21,645] INFO (bot.py L361, on_ready): Delete Invoking Messages: True
+[2017-07-27 19:30:21,645] INFO (bot.py L362, on_ready): 
+[2017-07-27 19:30:33,301] INFO (bot.py L323, cycle_server_icon): Cycled Server Icon
+[2017-07-27 19:30:40,797] DEBUG (bot.py L108, send_message): Sent message ID 340274850805317648 in #general_chat
+[2017-07-27 19:30:40,798] DEBUG (bot.py L172, _delete_after): Scheduled message ID 340274850805317648 to delete (60s)

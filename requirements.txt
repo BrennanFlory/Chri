@@ -1,0 +1,7 @@
+https://github.com/Rapptz/discord.py/archive/master.zip#egg=discord.py[voice]
+colorlog
+pip
+aiohttp
+rethinkdb
+ruamel.yaml
+beautifulsoup4
